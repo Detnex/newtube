@@ -29,7 +29,7 @@ class Welcome extends Component {
               <div className="container1"> 
               <h1>Welcome to timble App</h1>
                   <GoogleLogin
-                    clientId="817702232444-c72fmusssv98drr30imec80ns7thv9gr.apps.googleusercontent.com"
+                    clientId="817702232444-fbc6gtnuttmmf19to516thccsrnragfq.apps.googleusercontent.com"
                     buttonText="Login"
                     onSuccess = {responseGoogle}
                     onFailure = {responseGoogle}
