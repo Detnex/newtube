@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/newtube/static/css/main.b8cf6e00.chunk.css",
-    "main.js": "/newtube/static/js/main.e3623402.chunk.js",
-    "main.js.map": "/newtube/static/js/main.e3623402.chunk.js.map",
+    "main.js": "/newtube/static/js/main.0ac77982.chunk.js",
+    "main.js.map": "/newtube/static/js/main.0ac77982.chunk.js.map",
     "runtime~main.js": "/newtube/static/js/runtime~main.abb3c4a7.js",
     "runtime~main.js.map": "/newtube/static/js/runtime~main.abb3c4a7.js.map",
     "static/css/2.e40df323.chunk.css": "/newtube/static/css/2.e40df323.chunk.css",
     "static/js/2.cfda6d96.chunk.js": "/newtube/static/js/2.cfda6d96.chunk.js",
     "static/js/2.cfda6d96.chunk.js.map": "/newtube/static/js/2.cfda6d96.chunk.js.map",
     "index.html": "/newtube/index.html",
-    "precache-manifest.f17073e85cec9435117a0db0397c78f7.js": "/newtube/precache-manifest.f17073e85cec9435117a0db0397c78f7.js",
+    "precache-manifest.a41e14a9187449ee4ff50b3769b63398.js": "/newtube/precache-manifest.a41e14a9187449ee4ff50b3769b63398.js",
     "service-worker.js": "/newtube/service-worker.js",
     "static/css/2.e40df323.chunk.css.map": "/newtube/static/css/2.e40df323.chunk.css.map",
     "static/css/main.b8cf6e00.chunk.css.map": "/newtube/static/css/main.b8cf6e00.chunk.css.map"

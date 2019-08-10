@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61f58980d11f3ebee3cdffddacf889c2",
+    "revision": "bf081778fe0449295ffd794cc032b276",
     "url": "/newtube/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/newtube/static/css/2.e40df323.chunk.css"
   },
   {
-    "revision": "2d689104d3cfdaac0d8b",
+    "revision": "15649ad6f4e0d9f95e38",
     "url": "/newtube/static/css/main.b8cf6e00.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/newtube/static/js/2.cfda6d96.chunk.js"
   },
   {
-    "revision": "2d689104d3cfdaac0d8b",
-    "url": "/newtube/static/js/main.e3623402.chunk.js"
+    "revision": "15649ad6f4e0d9f95e38",
+    "url": "/newtube/static/js/main.0ac77982.chunk.js"
   },
   {
     "revision": "0ae255d6ed4ea5d4c880",
