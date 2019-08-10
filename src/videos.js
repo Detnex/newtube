@@ -4,7 +4,7 @@
     id: 1,
     name: 'bonfire',
     username: 'Bonfire',
-    src: 'https://github.com/Detnex/newtube/blob/master/public/Videos/bonfire.mp4'
+    src: 'https://www.youtube.com/watch?v=YE7VzlLtp-4'
   },
   {
     id: 2,
