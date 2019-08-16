@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/newtube1/static/css/main.b8cf6e00.chunk.css",
-    "main.js": "/newtube1/static/js/main.69c77bb0.chunk.js",
-    "main.js.map": "/newtube1/static/js/main.69c77bb0.chunk.js.map",
-    "runtime~main.js": "/newtube1/static/js/runtime~main.26d5a6b2.js",
-    "runtime~main.js.map": "/newtube1/static/js/runtime~main.26d5a6b2.js.map",
-    "static/css/2.e40df323.chunk.css": "/newtube1/static/css/2.e40df323.chunk.css",
-    "static/js/2.894a66ae.chunk.js": "/newtube1/static/js/2.894a66ae.chunk.js",
-    "static/js/2.894a66ae.chunk.js.map": "/newtube1/static/js/2.894a66ae.chunk.js.map",
-    "index.html": "/newtube1/index.html",
-    "precache-manifest.41b6f0f0a6346d0467c6e8a6dc304cd7.js": "/newtube1/precache-manifest.41b6f0f0a6346d0467c6e8a6dc304cd7.js",
-    "service-worker.js": "/newtube1/service-worker.js",
-    "static/css/2.e40df323.chunk.css.map": "/newtube1/static/css/2.e40df323.chunk.css.map",
-    "static/css/main.b8cf6e00.chunk.css.map": "/newtube1/static/css/main.b8cf6e00.chunk.css.map"
+    "main.css": "/newtube/static/css/main.b8cf6e00.chunk.css",
+    "main.js": "/newtube/static/js/main.b3af3305.chunk.js",
+    "main.js.map": "/newtube/static/js/main.b3af3305.chunk.js.map",
+    "runtime~main.js": "/newtube/static/js/runtime~main.abb3c4a7.js",
+    "runtime~main.js.map": "/newtube/static/js/runtime~main.abb3c4a7.js.map",
+    "static/css/2.e40df323.chunk.css": "/newtube/static/css/2.e40df323.chunk.css",
+    "static/js/2.894a66ae.chunk.js": "/newtube/static/js/2.894a66ae.chunk.js",
+    "static/js/2.894a66ae.chunk.js.map": "/newtube/static/js/2.894a66ae.chunk.js.map",
+    "index.html": "/newtube/index.html",
+    "precache-manifest.1111ef4db07bae845c59cea44a68bb52.js": "/newtube/precache-manifest.1111ef4db07bae845c59cea44a68bb52.js",
+    "service-worker.js": "/newtube/service-worker.js",
+    "static/css/2.e40df323.chunk.css.map": "/newtube/static/css/2.e40df323.chunk.css.map",
+    "static/css/main.b8cf6e00.chunk.css.map": "/newtube/static/css/main.b8cf6e00.chunk.css.map"
   }
 }
