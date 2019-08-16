@@ -1,28 +1,27 @@
 import React from 'react';
 import './style.css'
+import SearchField from 'react-search-field';
 
-const Searchbox = ({searchfield,searchChange,savedata,data }) => {
+const Searchbox = ({ searchfield,searchChange,savedata }) => {
     
-    let suggest = [];
-    suggest = data.sort().filter((v,i) => data.indexOf(v) === i);
+    //suggest = data.sort().filter((v,i) => data.indexOf(v) === i);
      
-    const onClicked = (props) => {
-        const a = props.item;
-        return(a);
-    }
+    //const onClicked = (props) => {
+      //  const a = props.item;
+        //return(a);
+    //}
 
     return (
      <div className='pa2 autocomplete'> 
-       <input 
-         className = 'pa3 ba b--green bg-lightest-blue w-50'
+       <SearchField 
+         className = 'pa3 ba b--green bg-lightest-blue w-50 test-class'
          type='search' 
          placeholder='search videos'
          onChange = {searchChange}
+         onEnter = {savedata}
+           onSearchClick={savedata}
          />
-         <ul> 
-             { suggest.map((item) => <li onClick={() => onClicked(item)}>{item}</li> )}
-         </ul>
-         <button className='pa3 ba b--blue bg-lightest-green ma3' onClick={savedata}>Search</button>
+        
      </div>
     );
 }

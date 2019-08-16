@@ -9,24 +9,13 @@ class Main extends Component {
 
     render() {
        const { name,logout } = this.props
-             const a = [];
               fetch('http://localhost:3001/login',{
                method: 'post',
                headers: {'Content-Type': 'application/json'},
                body: JSON.stringify({
                  name : name
             })
-           }).then(response => response.json()).then(response => {
-              if(response) {
-                  fetch('http://localhost:3001/data',{}).then(response => response.json())
-                  .then(res => res.forEach((data1) => {
-                           a.push(data1);
-
-                  } ));
-              }
-
-           })
-            console.log(a);   
+           }).then(response => response.json())
 
     	return (
               <div>
@@ -35,7 +24,7 @@ class Main extends Component {
 			      </div>
               	 <h1>{`Welcome ${ name.toUpperCase() } `}</h1>
               	   <div> 
-                      <Body a = { a }/>
+                      <Body />
                    </div>  
               </div>
          		)

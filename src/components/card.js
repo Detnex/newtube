@@ -1,30 +1,26 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 
-const Card = ({ name,src,id,username }) => {
-     
+const Card = ({ vid }) => {
+ // console.log(vide);
+  //vide.map((item) => console.log(item.slice(2,-2)))     
    const play = () => {
         fetch('http://localhost:3001/vplay',{
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
-            vplay:src
+            vplay:vid
               })
         })
          .then(response => response.json())
         .then(res => console.log(res))
-     }
+     }  
 
-    return (
-    <div className='tc dib pa2 ma2 bw2 shadow-3 h-25 w-25' >
-        <ReactPlayer url={ src } controls={true}   width='100%' height='100%' onStart={ play } />
-        <div className='Times f4 lh-copy i'>
-            {name} <br/>
-            {id} <br/>
-            {username}
-        </div>
+    return ( 
+    <div className='tc dib pa2 ma2 bw2 shadow-3 h-25 w-25'>
+        <ReactPlayer url={ `https://www.youtube.com/watch?v=${vid.slice(1,-1)}` } controls={true}   width='100%' height='100%' onPlay={play}/>
     </div>
-    );
+    )
 }
 
 export default Card;

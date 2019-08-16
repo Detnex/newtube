@@ -14,7 +14,7 @@ class Welcome extends Component {
     
     logout = (props) => {
       this.setState({ isLoggedIn:true })
-      fetch('http://localhost:3001/home',{}).then(res => res.json());
+      fetch('http://localhost:3001/logout',{}).then(res => res.json());
     }  
 
 	 render() {
@@ -27,7 +27,7 @@ class Welcome extends Component {
       <div>
          { this.state.isLoggedIn ? (
               <div className="container1"> 
-              <h1>Welcome to timble App</h1>
+              <h1>Welcome to the App</h1>
                   <GoogleLogin
                     clientId="817702232444-fbc6gtnuttmmf19to516thccsrnragfq.apps.googleusercontent.com"
                     buttonText="Login"
